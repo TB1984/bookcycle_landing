@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuchCycle – Dein Schweizer Buchkreislauf</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-700">BuchCycle</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#features" class="hover:underline">Warum BuchCycle?</a></li>
+          <li><a href="#how" class="hover:underline">So funktioniert’s</a></li>
+          <li><a href="#signup" class="hover:underline">Mitmachen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-green-100 py-20 text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-4">Gib deinen Büchern ein zweites Leben</h2>
+      <p class="text-xl mb-6">Verkaufe, tausche oder entdecke gebrauchte Bücher – nachhaltig, lokal und fair.</p>
+      <a href="#signup" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold">Jetzt mitmachen</a>
+    </div>
+  </section>
+
+  <section id="features" class="py-16">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2">Nachhaltig handeln</h3>
+        <p>Spare CO₂ und reduziere Abfall durch Wiederverwendung von Büchern.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2">Lokal vernetzt</h3>
+        <p>Finde Bücher in deiner Nähe oder nutze unsere Abholpunkte.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-2">Bildung fördern</h3>
+        <p>Mach Lernmaterialien für alle zugänglicher – besonders für Schüler:innen & Studierende.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="bg-white py-16 border-t">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-8">So funktioniert’s</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        <div>
+          <h3 class="font-semibold text-lg mb-2">1. Durchstöbern oder anbieten</h3>
+          <p>Stöbere in Tausenden von Titeln oder lade dein eigenes Buch mit wenigen Klicks hoch.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg mb-2">2. Kaufen, tauschen oder spenden</h3>
+          <p>Wähle aus, ob du Bücher verkaufen, tauschen oder der Community schenken willst.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg mb-2">3. Abholen oder per Post erhalten</h3>
+          <p>Treffe dich mit anderen Nutzer:innen oder nutze den umweltfreundlichen Versand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="signup" class="bg-green-50 py-16">
+    <div class="max-w-xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-bold mb-4">Starte deinen Buchkreislauf</h2>
+      <p class="mb-6">Registriere dich für den Early Access und erhalte ein Startguthaben für deinen ersten Buchtausch.</p>
+      <form class="flex flex-col sm:flex-row gap-4 justify-center">
+        <input type="email" placeholder="Deine E-Mail-Adresse" class="p-3 rounded-lg border flex-1" required>
+        <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg">Anmelden</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-white text-center text-sm text-gray-500 py-6 border-t">
+    <p>&copy; 2025 BuchCycle – Made with 💚 in der Schweiz</p>
+  </footer>
+</body>
+</html>
+"erste Version"
